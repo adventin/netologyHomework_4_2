@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.training-history {}
+
+.form {
+  margin-bottom: 2rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.form-label {
+  margin-bottom: 1rem;
+}
+
+.form-field {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: .5rem;
+}
+
+.form-button {
+  height: 2.5rem;
+  margin-top: auto;
+}
+
+
+
+.table-wrap {
+  width: 30rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header {}
+
+.table-body {
+  border: 1px solid #323232;
+}
+
+.table-body th {
+  text-align: left;
+}
+
+.table-body td {
+  padding: 0.25rem 1rem;
+}
